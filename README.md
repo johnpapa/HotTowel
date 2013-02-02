@@ -1,7 +1,7 @@
 #HotTowel
-##John Papa's Opinionated ASP.NET SPA Template Starter Kit
+##John Papa's (Opinionated) ASP.NET SPA Template Starter Kit
 
-HotTowel: Because You can't go to the SPA without a one!
+HotTowel: Because You can't go to the SPA without one!
 
 ##What is HotTowel?
 HotTowel is a NuGet package that creates a great starting point for building a SPA. 
