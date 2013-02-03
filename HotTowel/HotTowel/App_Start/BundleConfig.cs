@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Optimization;
 
-namespace $rootnamespace$
+namespace HotTowel
 {
     public class BundleConfig
     {

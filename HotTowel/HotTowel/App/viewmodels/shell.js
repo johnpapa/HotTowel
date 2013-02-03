@@ -10,7 +10,6 @@
         var shell = {
             activate: activate,
             adminRoutes: adminRoutes,
-            navigate: navigate,
             router: router
         };
         
@@ -31,10 +30,6 @@
             log('HotTowel SPA Loaded!', null, true);
             //TODO: set your default startup route here
             return router.activate('home');
-        }
-
-        function navigate(item) {
-            router.navigateTo(item.hash);
         }
 
         function log(msg, data, showToast) {
