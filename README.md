@@ -1,7 +1,7 @@
 #HotTowel
-##John Papa's (Opinionated) ASP.NET SPA Template Starter Kit
+##John Papa's ASP.NET SPA Template
 
-HotTowel: Because You can't go to the SPA without one!
+HotTowel: Because You dont't want to go to the SPA without one!
 
 ##What is HotTowel?
 HotTowel is a NuGet package that creates a great starting point for building a SPA. 
@@ -16,7 +16,7 @@ Installing using Nuget into Visual Studio and then run the project!
 1. Add your own server-side code, preferably Entity Framework and WebAPI (which really shine with BreezeJS).
 2. Replace the home and details view and viewmodels with your own views and viewmodels. 
 3. Update the navigation routes in shell.js (search for TODO).
-4. Update the startup page in shell.js (search for TODO)
+4. Update the startup module in shell.js (search for TODO)
 5. Add code to your new viewmodels to get data
 6. Add code to your new views to bind and display the data
 
@@ -24,7 +24,7 @@ Installing using Nuget into Visual Studio and then run the project!
 ##Besides NuGet packges, what's in it?
 - index.cshtml (starter html page with script and css references)
 - App/main.js (bootstrapping code)
-- App/logger.js (csonole logging and toasts)
+- App/logger.js (console logging and toasts)
 - App/views/shell.html (the shell view)
 - App/views/nav.html (navigation)
 - App/views/home.html (a sample view)
@@ -40,21 +40,21 @@ Installing using Nuget into Visual Studio and then run the project!
 ##Also Includes NuGet Packages
 Also includes several NuGet packages both directly and indirectly:
 
-- toastr 
-- jQuery 
 - Breeze.WebApi
 - Durandal
 - Durandal.Router 
 - Durandal.Transitions
+- jQuery 
+- KnockoutJS
 - Microsoft.AspNet.WebApi
 - Microsoft.AspNet.Razor
 - Microsoft.AspNet.Web.Optimization
-- Twitter.Bootstrap
-- WebActivator
-- KnockoutJS
+- Q.js
 - RequireJS
 - Sammy.js
-- Q.js
+- toastr 
+- Twitter.Bootstrap
+- WebActivator
 
 
 ##Notes
