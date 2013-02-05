@@ -2,12 +2,8 @@
     paths: { "text": "durandal/amd/text" }
 });
 
-define(function (require) {
-    var app = require('durandal/app'),
-        viewLocator = require('durandal/viewLocator'),
-        system = require('durandal/system'),
-        router = require('durandal/plugins/router'),
-        logger = require('logger');
+define(['durandal/app', 'durandal/viewLocator', 'durandal/system', 'durandal/plugins/router', 'logger'],
+    function (app, viewLocator, system, router, logger) {
 
     // Enable debug message to show in the console 
     system.debug(true);
