@@ -43,18 +43,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\FilterConfig.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\RouteConfig.cs">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\WebApiConfig.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Global.asax">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Global.asax.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Global.asax</DependentUpon>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -76,7 +77,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\HotTowel.0.8.20.nupkg">
+    <Content Include="packages\HotTowel.0.8.21.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

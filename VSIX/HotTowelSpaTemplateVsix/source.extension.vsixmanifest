@@ -15,7 +15,7 @@
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
   </Dependencies>
   <Assets>
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="packages\HotTowel.0.8.20.nupkg" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="packages\HotTowel.0.8.21.nupkg" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="packages\WebActivator.1.5.3.nupkg" />
 
     <Asset d:VsixSubPath="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml"
@@ -34,10 +34,9 @@
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.csproj" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\favicon.ico" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Properties\AssemblyInfo.cs" />
-	
+
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\FilterConfig.cs" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\RouteConfig.cs" />
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\WebApiConfig.cs" />
 
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Global.asax" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Global.asax.cs" />
