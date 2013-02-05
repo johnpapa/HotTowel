@@ -38,7 +38,8 @@ Add code to your new views to bind and display the data.</description>
             <dependency id="Microsoft.AspNet.Web.Optimization" version="1.0.0" />
             <dependency id="Twitter.Bootstrap" version="2.2.2" />
             <dependency id="WebActivator" version="1.5.3" />
-            <dependency id="toastr" version="1.1.4.1" />
+            <dependency id="Moment.js" version="1.7.2" />
+            <dependency id="toastr" version="1.1.4.2" />
         </dependencies>
     </metadata>
     <files>
