@@ -21,8 +21,8 @@ Installing using Nuget into an empty ASP.NET MVC Web project using Visual Studio
 6. Add code to your new views to bind and display the data
 
 
-##Also Includes NuGet Packages
-Also includes several NuGet packages both directly and indirectly:
+##Included NuGet Packages
+HotTowel includes several NuGet packages both directly and indirectly:
 
 - Breeze.WebApi
 - Durandal
