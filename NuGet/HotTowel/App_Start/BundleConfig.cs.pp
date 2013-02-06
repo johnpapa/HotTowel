@@ -23,6 +23,7 @@ namespace $rootnamespace$
                 .Include("~/scripts/Q.js")
                 .Include("~/scripts/breeze.debug.js")
                 .Include("~/scripts/bootstrap.js")
+                .Include("~/scripts/moment.js")
               );
 
             bundles.Add(
@@ -31,7 +32,7 @@ namespace $rootnamespace$
                 .Include("~/Content/bootstrap.css")
                 .Include("~/Content/bootstrap-responsive.css")
                 .Include("~/Content/toastr.css")
-                .Include("~/Content/styles.css")
+                .Include("~/Content/app.css")
               );
         }
 

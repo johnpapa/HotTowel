@@ -2,7 +2,7 @@
     paths: { "text": "durandal/amd/text" }
 });
 
-define(['durandal/app', 'durandal/viewLocator', 'durandal/system', 'durandal/plugins/router', 'logger'],
+define(['durandal/app', 'durandal/viewLocator', 'durandal/system', 'durandal/plugins/router', 'services/logger'],
     function (app, viewLocator, system, router, logger) {
 
     // Enable debug message to show in the console 
@@ -15,7 +15,6 @@ define(['durandal/app', 'durandal/viewLocator', 'durandal/system', 'durandal/plu
         // Adapt to touch devices
         app.adaptToDevice();
         //Show the app by setting the root view model for our application.
-        
         app.setRoot('viewmodels/shell', 'entrance');
     });
 
@@ -28,10 +27,5 @@ define(['durandal/app', 'durandal/viewLocator', 'durandal/system', 'durandal/plu
         // with view to find it partner view.
         router.useConvention();
         viewLocator.useConvention();
-
-        // Specify a view to always be in the views folder
-        viewLocator.convertViewUrlToAreaUrl = function (area, viewUrl) {
-            return 'views/' + viewUrl;
-        };
     }
 });

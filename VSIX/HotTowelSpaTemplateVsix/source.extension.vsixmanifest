@@ -2,10 +2,11 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="HotTowelSpa..c7e4af09-d368-4411-8eaa-bc493103fdf6" Version="1.0" Language="en-US" Publisher="JohnPapa.net" />
-    <DisplayName>HotTowelSpa</DisplayName>
+    <DisplayName>Hot Towel Spa</DisplayName>
     <Description xml:space="preserve">Adds ASP.NET 4 Single Page Application (SPA) template using Knockout for data binding, Durandal for composition and navigation, and Breeze for data management</Description>
     <MoreInfo>https://github.com/johnpapa/HotTowel</MoreInfo>
     <Icon>__VsixIcon.ico</Icon>
+    <PreviewImage>ProjectTemplates\HotTowelPreview.png</PreviewImage>
     <Tags>HotTowel SPA</Tags>
   </Metadata>
   <Installation>
@@ -27,7 +28,7 @@
                Description="An ASP.NET 4 project for a single page application with Knockout, Durandal, and Breeze"
                Version="4.0"/>
 
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\__TemplateIcon.ico.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\__TemplateIcon.ico" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.csproj" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\favicon.ico" />
     <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Properties\AssemblyInfo.cs" />

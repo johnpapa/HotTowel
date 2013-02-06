@@ -1,4 +1,4 @@
-﻿define(['logger'], function (logger) {
+﻿define(['services/logger'], function (logger) {
     var vm = {
         activate: activate,
         title: 'Home View'

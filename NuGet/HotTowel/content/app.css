@@ -1,4 +1,18 @@
-﻿html {
+﻿/* #region HTML RESET */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym,address, big,cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas,  details, figcaption, figure, footer, header, hgroup, menu,
+nav, section, summary, time, mark, audio, video
+{
+    font: inherit;
+    margin: 0;
+}
+
+/* #endregion */
+
+html {
     padding: 0;
     color: black;
     background: #EFEFEF;
@@ -14,10 +28,19 @@ body {
 
 h1, h2, h3 {
     text-transform: uppercase;
-    letter-spacing: -2px;
+    letter-spacing: -1px !important;
     color: #777;
 }
 
+section.main {
+    margin-top: 80px;
+}
+
+.navbar .brand {
+    padding: 6px 30px 12px 30px;
+    margin-bottom: -8px;
+    height: 48px;
+}
 .brand .title {
     float: left;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
@@ -25,7 +48,7 @@ h1, h2, h3 {
     font-weight: 900;
     letter-spacing: -2px;
     margin: 2% 0;
-    padding-left: 25px;
+    padding-left: 50px;
     -webkit-text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
     text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
     text-transform: uppercase;
@@ -33,10 +56,13 @@ h1, h2, h3 {
     text-decoration: none;
     color: #0081C2;
 }
-
-section.main {
-    margin-top: 50px;
-}
+    span.title {
+        background: url(/content/images/icon.png) no-repeat left center;
+        -moz-background-size: 45px;
+        -o-background-size: 45px;
+        -webkit-background-size: 45px;
+        background-size: 45px;
+    }
 
 .page-splash
 {
@@ -74,7 +100,9 @@ section.main {
     margin: 10% 30% 0 30%;
 }
 
-
+.toast {
+    font-weight: normal;
+}
 .toast-info
 {
     background-color: #194D7B;
@@ -95,27 +123,11 @@ footer span {
     font-size: 18px;
 }
 
-@media only screen and (max-width: 979px) {
-    .page-splash-message {
-        font-size: 150%;
-    }
-
-    .navbar-fixed-bottom {
-        position: fixed;
-    }
-
-	footer span {
-		padding: 10px 50px;
-		font-size: 14px;
-	}
-}
-
-
 /***************************/
 /* Boostrap overrides      */
 
 .navbar .btn, .navbar .btn-group {
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 .navbar-fixed-top .navbar-inner {
@@ -123,6 +135,11 @@ footer span {
     padding-right: 1em !important;
     padding-top: 0;
     padding-bottom: 0;
+    border-width: 0;
+}
+
+.navbar-fixed-bottom .navbar-inner {
+	padding: 6px;
 }
 
 .navbar {
@@ -175,3 +192,18 @@ footer span {
 
 /* End Boostrap overrides  */
 /***************************/
+
+@media only screen and (max-width: 979px) {
+    .page-splash-message {
+        font-size: 150%;
+    }
+
+    .navbar-fixed-bottom {
+        position: fixed;
+    }
+
+	footer span {
+		padding: 10px 50px;
+		font-size: 14px;
+	}
+}
