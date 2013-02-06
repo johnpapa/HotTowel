@@ -38,11 +38,6 @@ section.main {
     margin-top: 50px;
 }
 
-.toast-info
-{
-    background-color: #194D7B;
-}
-
 .page-splash
 {
     position: fixed;
@@ -79,11 +74,42 @@ section.main {
     margin: 10% 30% 0 30%;
 }
 
+
+.toast-info
+{
+    background-color: #194D7B;
+}
+
+.toast-bottom-right {
+    bottom: 50px;
+}
+.navbar-content-center {
+    text-align: center;    
+}
+
+footer a {
+    font-weight: bold;
+}
+footer span {
+    padding: 10px 80px;
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 979px) {
     .page-splash-message {
         font-size: 150%;
     }
+
+    .navbar-fixed-bottom {
+        position: fixed;
+    }
+
+	footer span {
+		padding: 10px 50px;
+		font-size: 14px;
+	}
 }
+
 
 /***************************/
 /* Boostrap overrides      */
