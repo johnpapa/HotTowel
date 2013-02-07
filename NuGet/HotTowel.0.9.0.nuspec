@@ -22,7 +22,6 @@ HotTowel: because you don't want to go to the SPA without one!</description>
         <language>en-US</language>
         <tags>spa asp.net jquery knockout toastr breeze sammy q javascript moment</tags>
         <dependencies>
-            <dependency id="jQuery" version="1.9.0" />
             <dependency id="Durandal" version="1.0.2" />
             <dependency id="Durandal.Router" version="1.0.2" />
             <dependency id="Durandal.Transitions" version="1.0.2" />
@@ -34,6 +33,7 @@ HotTowel: because you don't want to go to the SPA without one!</description>
             <dependency id="Moment.js" version="1.7.2" />
             <dependency id="toastr" version="1.1.4.2" />
             <dependency id="Breeze.WebApi" version="1.1.0" />
+            <dependency id="jQuery" version="1.9.1" />
         </dependencies>
     </metadata>
     <files>
