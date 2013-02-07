@@ -41,6 +41,11 @@ section.main {
     margin-bottom: -8px;
     height: 48px;
 }
+
+h2.page-title {
+    font-size: 32px;
+}
+
 .brand .title {
     float: left;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;

@@ -10,7 +10,6 @@
         var shell = {
             activate: activate,
             adminRoutes: adminRoutes,
-            navigate: navigate,
             router: router
         };
         
@@ -22,19 +21,10 @@
         }
 
         function boot() {
-            // TODO: map routes here
-            var routes = [
-                { url: 'home', moduleId: 'viewmodels/home', name: 'Home', visible: true },
-                { url: 'details', moduleId: 'viewmodels/details', name: 'Details', visible: true }
-            ];
-            router.map(routes);
-            log('HotTowel SPA Loaded!', null, true);
-            //TODO: set your default startup route here
+            router.mapNav('home');
+            router.mapNav('details');
+            log('Hot Towel SPA Loaded!', null, true);
             return router.activate('home');
-        }
-
-        function navigate(item) {
-            router.navigateTo(item.hash);
         }
 
         function log(msg, data, showToast) {
