@@ -17,10 +17,7 @@ Hot Towel SPA provides an App folder which contains the JavaScript and HTML file
 
 Inside the App folder:
 
-- durandal
-- services
-- viewmodels
-- views
+![](http://johnpapa.net/wp-content/images/HotTowelAppFolder.png)
 
 The App folder contains a collection of modules. These modules encapsulate functionality and declare dependencies on other modules. The views folder contains the HTML for your application and the viewmodels folder contains the presentation logic for the views (a common MVVM pattern). The services folder is ideal for housing any common services that your application may need such as HTTP data retrieval or local storage interaction. It is common for multiple viewmodels to re-use code from the service modules.
 
