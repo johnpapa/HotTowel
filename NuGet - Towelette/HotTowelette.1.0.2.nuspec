@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>HotTowelette</id>
+        <version>1.0.2</version>
+        <title>HotTowelette: ASP.NET SPA Template</title>
+        <authors>John Papa</authors>
+        <owners>John Papa</owners>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <projectUrl>https://github.com/johnpapa/HotTowel</projectUrl>
+        <iconUrl>http://www.johnpapa.net/wp-content/images/toweletteicon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Want to build a SPA but can't decide where to start? Use Hot Towelette and in seconds you'll have a SPA and all the tools you need to build on it! 
+
+* Use Hot Towel for ASP.NET MVC
+* Use Hot Towelette for ASP.NET (no MVC required)
+
+Hot Towelette creates a great starting point for building a SPA with ASP.NET, Knockout for data bindings, Durandal for navigation and UI, and Breeze for data management.
+
+Hot Towelette also adds pop-up toasts with Toastr, date formatting with Moment, styling with Twitter Bootstrap, and browser history integration with Durandal.Router.
+
+Hot Towelette: Because you don't want to go to the SPA without one!
+
+* Hot Towel and Hot Towelette are shown in the SPA JumpStart course at www.pluralsight.com</description>
+        <summary>Quick and easy SPA Template for building a SPA with ASP.NET, Knockout, Durandal, and Breeze.</summary>
+        <copyright>Copyright © 2013 John Papa</copyright>
+        <language>en-US</language>
+        <tags>spa asp.net jquery knockout toastr breeze sammy q javascript moment</tags>
+        <dependencies>
+            <dependency id="Breeze.WebApi" version="1.1.2" />
+            <dependency id="Durandal" version="1.1.0" />
+            <dependency id="Durandal.Router" version="1.1.0" />
+            <dependency id="Durandal.Transitions" version="1.1.0" />
+            <dependency id="jQuery" version="1.9.1" />
+            <dependency id="knockoutjs" version="2.2.1" />
+            <dependency id="Moment.js" version="1.7.2" />
+            <dependency id="toastr" version="1.1.4.2" />
+            <dependency id="Twitter.Bootstrap" version="2.2.2" />
+            <dependency id="Microsoft.AspNet.WebApi" version="4.0.20710.0" />
+            <dependency id="Microsoft.AspNet.Razor" version="2.0.20715.0" />
+            <dependency id="Microsoft.AspNet.Web.Optimization" version="1.0.0" />
+            <dependency id="WebActivator" version="1.5.3" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="content\App\services\logger.js" target="content\App\services\logger.js" />
+        <file src="content\App\viewmodels\details.js" target="content\App\viewmodels\details.js" />
+        <file src="content\App\viewmodels\home.js" target="content\App\viewmodels\home.js" />
+        <file src="content\App\viewmodels\shell.js" target="content\App\viewmodels\shell.js" />
+        <file src="content\App\views\details.html" target="content\App\views\details.html" />
+        <file src="HotTowelette\App\views\footer.html" target="content\App\views\footer.html" />
+        <file src="content\App\views\home.html" target="content\App\views\home.html" />
+        <file src="HotTowelette\App\views\nav.html" target="content\App\views\nav.html" />
+        <file src="content\App\views\shell.html" target="content\App\views\shell.html" />
+        <file src="content\App\main.js" target="content\App\main.js" />
+        <file src="HotTowelette\App_Start\BundleConfig.cs.pp" target="content\App_Start\BundleConfig.cs.pp" />
+        <file src="content\App_Start\HotTowelConfig.cs.pp" target="content\App_Start\HotTowelConfig.cs.pp" />
+        <file src="HotTowelette\Content\images\icon.png" target="content\Content\images\icon.png" />
+        <file src="content\Content\app.css" target="content\Content\app.css" />
+        <file src="content\Content\ie10mobile.css" target="content\Content\ie10mobile.css" />
+        <file src="content\Scripts\_._" target="content\Scripts\_._" />
+        <file src="HotTowelette\favicon.ico" target="content\favicon.ico" />
+        <file src="HotTowelette\index.cshtml" target="content\index.cshtml" />
+        <file src="HotTowelette\_splash.cshtml" target="content\_splash.cshtml" />
+    </files>
+</package>
