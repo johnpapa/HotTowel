@@ -3,7 +3,9 @@
 ----------
 > Hot Towel: Because you don't want to go to the SPA without one!
 
-Want to build a SPA but can't decide where to start? Use Hot Towel and in seconds you'll have a SPA and all the tools you need to build on it!
+Want to build a SPA but can't decide where to start? Use Hot Towel and in seconds you'll have a SPA and all the tools you need to build on it! 
+
+You can get Hot Towel along with the new RTM version of [ASP.NET and Web Tools 2012.2, as announced by Scott Guthrie here](http://jpapa.me/scottguaspnetwt).
 
 ![](http://johnpapa.net/wp-content/images/HotTowelPreview.png)
 
@@ -102,7 +104,7 @@ Views are found in the `App/views` folder.
 ### shell.html ###
 The `shell.html` contains the master layout for your HTML. All of your other views will be composed somewhere in side of your `shell` view. Hot Towel provides a `shell` with three such regions: a header, a content area, and a footer. Each of these regions is loaded with contents form other views when requested.
 
-The `compose` bindings for the header and footer are hard coded in Hot Towel to point to the `nav` and `footer` views, respectively. The compose binding for the section `#content` is bound to the `router` module's active item. In other words, when you click a navigation link it's corresponding view is loaded in this area.
+The `compose` bindings for the header and footer are hard coded in Hot Towel to point to the `nav` and `footer` views, respectively. The compose binding for the section `#content` is bound to the `router` module's active item. In other words, when you click a navigation link its corresponding view is loaded in this area.
 
     <div>
         <header>
@@ -203,3 +205,17 @@ Services are found in the App/services folder. Ideally your future services such
 
 ### logger.js ###
 Hot Towel provides a `logger` module in the services folder. The `logger` module is ideal for logging messages to the console and to the user in pop up toasts.  
+
+
+## Resources ##
+
++ [SPA Resources](http://johnpapa.net/spa)
++ [Hot Towel on GitHub](https://github.com/johnpapa/HotTowel)
+
+
+### Hot Towel SPA on NuGet ###
+<img src="http://www.johnpapa.net/wp-content/images/towelicon.png" width="48" height="48" class="alignleft" />Hot Towel also comes as a <a href="http://nuget.org/packages/HotTowel/" target="_blank">NuGet package</a> that you can add to an ASP.NET MVC application. If you start from scratch, the template is the way to go. If you have an existing project, you can use the NuGet package (which lacks the start-up hooks that the template has).
+
+<h4>Hot Towelette SPA on NuGet</h4>
+<img src="http://www.johnpapa.net/wp-content/images/toweletteicon.png" width="48" height="48" class="alignleft" />Hot Towel also comes as a <a href="http://nuget.org/packages/HotTowel/" target="_blank">NuGet package</a> that you can add to an ASP.NET application (no MVC required). If you start from scratch, the template is the way to go. If you have an existing project, you can use the NuGet package (which lacks the start-up hooks that the template has).
+
