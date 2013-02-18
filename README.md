@@ -5,8 +5,6 @@
 
 Want to build a SPA but can't decide where to start? Use Hot Towel and in seconds you'll have a SPA and all the tools you need to build on it! 
 
-You can get Hot Towel along with the new RTM version of [ASP.NET and Web Tools 2012.2, as announced by Scott Guthrie here](http://jpapa.me/scottguaspnetwt).
-
 ![](http://johnpapa.net/wp-content/images/HotTowelPreview.png)
 
 Hot Towel creates a great starting point for building a Single Page Application (SPA) with ASP.NET. Out of the box you it provides a modular structure for your code, view navigation, data binding, rich data management and simple but elegant styling. Hot Towel provides everything you need to build a SPA, so you can focus on your app, not the plumbing.
