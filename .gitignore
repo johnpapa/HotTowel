@@ -6,7 +6,7 @@
 *.suo
 bin*
 obj*
-/packages
+#/packages
 
 
 # Compiled source #
@@ -49,4 +49,4 @@ Icon?
 Thumbs.db
 /CodeCamper.Web/Content/hans_fj
 /CodeCamper.Web/Properties/PublishProfiles/Cytanium.pubxml
-packages
+#packages
