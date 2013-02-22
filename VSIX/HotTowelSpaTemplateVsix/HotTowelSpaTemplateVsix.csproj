@@ -96,6 +96,7 @@
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Web.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Web.Debug.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -121,10 +122,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\HotTowel.1.0.3.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="packages\Moment.js.2.0.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -134,6 +131,10 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="packages\Twitter.Bootstrap.2.3.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\HotTowel.1.0.5.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -153,6 +154,7 @@
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.vstemplate">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\__TemplateIcon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
