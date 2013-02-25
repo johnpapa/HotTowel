@@ -17,7 +17,7 @@ define(['durandal/app', 'durandal/viewLocator', 'durandal/system', 'durandal/plu
         };
 
         // When finding a viewmodel module, replace the viewmodel string 
-        // with view to find it partner view.
+        // with view to find its partner view.
         router.useConvention();
         viewLocator.useConvention();
         
