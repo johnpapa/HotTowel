@@ -16,6 +16,9 @@ namespace $rootnamespace$.App_Start {
 
     public static void RegisterHotTowelPreStart() {
 
+      // Ignore requests to .axd HttpHandlers
+      System.Web.Routing.RouteTable.Routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
       // Preempt standard default MVC page routing to go to HotTowel Sample
       System.Web.Routing.RouteTable.Routes.MapRoute(
           name: "HotTowelMvc",
