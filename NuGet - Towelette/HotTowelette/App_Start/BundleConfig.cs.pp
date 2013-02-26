@@ -24,6 +24,7 @@ namespace $rootnamespace$
 
             bundles.Add(
               new StyleBundle("~/Content/css")
+                .Include("~/Content/reset.css")
                 .Include("~/Content/ie10mobile.css")
                 .Include("~/Content/bootstrap.css")
                 .Include("~/Content/bootstrap-responsive.css")
