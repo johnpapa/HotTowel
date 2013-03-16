@@ -1,14 +1,15 @@
 ﻿define(['services/logger'], function (logger) {
+    var title = 'Home';
     var vm = {
         activate: activate,
-        title: 'Home View'
+        title: title
     };
 
     return vm;
 
     //#region Internal Methods
     function activate() {
-        logger.log('Home View Activated', null, 'home', true);
+        logger.log(title + ' View Activated', null, title, true);
         return true;
     }
     //#endregion
