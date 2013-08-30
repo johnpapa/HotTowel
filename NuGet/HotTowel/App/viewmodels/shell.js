@@ -1,4 +1,4 @@
-﻿define(['durandal/system', 'durandal/plugins/router', 'services/logger'],
+﻿define(['durandal/system', 'plugins/router', 'services/logger'],
     function (system, router, logger) {
         var shell = {
             activate: activate,
@@ -13,14 +13,28 @@
         }
 
         function boot() {
-            router.mapNav('home');
-            router.mapNav('details');
             log('Hot Towel SPA Loaded!', null, true);
-            return router.activate('home');
+
+            router.on('router:route:not-found', function (fragment) {
+                logError('No Route Found', fragment, true);
+            });
+
+            var routes = [
+                { route: '', moduleId: 'home', title: 'Home', nav: 1 },
+                { route: 'details', moduleId: 'details', title: 'Details', nav: 2 }];
+
+            return router.makeRelative({ moduleId: 'viewmodels' }) // router will look here for viewmodels by convention
+                .map(routes)            // Map the routes
+                .buildNavigationModel() // Finds all nav routes and readies them
+                .activate();            // Activate the router
         }
 
         function log(msg, data, showToast) {
             logger.log(msg, data, system.getModuleId(shell), showToast);
+        }
+
+        function logError(msg, data, showToast) {
+            logger.logError(msg, data, system.getModuleId(shell), showToast);
         }
         //#endregion
     });
