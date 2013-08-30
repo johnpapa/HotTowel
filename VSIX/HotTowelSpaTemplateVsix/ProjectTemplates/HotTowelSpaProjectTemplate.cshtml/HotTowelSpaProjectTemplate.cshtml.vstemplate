@@ -68,16 +68,16 @@
     <packages repository="extension" repositoryId="HotTowelSpa..c7e4af09-d368-4411-8eaa-bc493103fdf6" >
       <package id="WebActivator" version="1.5.3" skipAssemblyReferences="true" />
       <package id="jQuery" version="1.9.1" />
-      <package id="knockoutjs" version="2.2.1" />
-      <package id="Sammy.js" version="0.7.4" />
-      <package id="HotTowel" version="1.0.7" skipAssemblyReferences="true" />
-      <package id="Breeze.WebApi" version="1.1.2" skipAssemblyReferences="true" />
-      <package id="Durandal" version="1.1.1" />
-      <package id="Durandal.Router" version="1.1.1" />
-      <package id="Durandal.Transitions" version="1.1.1" />
-      <package id="Twitter.Bootstrap" version="2.3.0" />
+      <package id="knockoutjs" version="2.3.0" />
+      <package id="HotTowel" version="2.0.0" skipAssemblyReferences="true" />
+      <package id="Breeze.WebApi" version="1.4.1" skipAssemblyReferences="true" />
+      <package id="Durandal" version="2.0.0" />
+      <package id="Durandal.Transitions" version="2.0.0" />
+      <package id="RequireJS" version="2.1.8" />
+      <package id="Q" version="0.9.6" />
+      <package id="Twitter.Bootstrap" version="2.3.2" />
       <package id="Toastr" version="1.2.2" />
-      <package id="Moment.js" version="2.0.0" />
+      <package id="Moment.js" version="2.1.0" />
     </packages>
   </WizardData>
 </VSTemplate>
