@@ -10,8 +10,8 @@
     <Tags>HotTowel SPA</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
-    <InstallationTarget Version="[11.0,12.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0, 12.0]" />
+    <InstallationTarget Version="[11.0,12.0]" Id="Microsoft.VisualStudio.VWDExpress" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
@@ -29,19 +29,19 @@
                Description="An ASP.NET 4 project for a single page application with Knockout, Durandal, and Breeze"
                Version="4.0"/>
 
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\__TemplateIcon.ico" />
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.csproj" />
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\favicon.ico" />
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Properties\AssemblyInfo.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\__TemplateIcon.ico" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.csproj" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\favicon.ico" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Properties\AssemblyInfo.cs" />
 
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\FilterConfig.cs" />
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\RouteConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\FilterConfig.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\App_Start\RouteConfig.cs" />
 
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Global.asax" />
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Global.asax.cs" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Global.asax" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Global.asax.cs" />
 
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Web.config" />
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Web.Release.config" />
-    <Asset Type="Microsoft.VisualStudio.Mvc.Templates" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Web.Debug.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Web.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Web.Release.config" />
+    <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Web.Debug.config" />
   </Assets>
 </PackageManifest>

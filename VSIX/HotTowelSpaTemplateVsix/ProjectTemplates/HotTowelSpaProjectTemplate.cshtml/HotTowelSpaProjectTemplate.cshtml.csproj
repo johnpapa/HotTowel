@@ -139,7 +139,7 @@
 
   <ItemGroup> 
     <!-- Added for HotTowel SPA Template -->
-     <Reference Include="Breeze.WebApi, Version=1.2.0.0, Culture=neutral, PublicKeyToken=f6085f1a45e2ac59, processorArchitecture=MSIL">                                                                                                                                                  
+     <Reference Include="Breeze.WebApi, Version=1.4.0.0, Culture=neutral, PublicKeyToken=f6085f1a45e2ac59, processorArchitecture=MSIL">                                                                                                                                                  
         <Private>True</Private>                                                                                                                                                             
         <HintPath>$nugetpackagesfolder$Breeze.WebApi.1.4.1\lib\Breeze.WebApi.dll</HintPath>                                                                                                    
     </Reference>
