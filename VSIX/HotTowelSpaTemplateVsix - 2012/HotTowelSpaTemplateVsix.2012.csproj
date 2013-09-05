@@ -64,6 +64,7 @@
   <ItemGroup>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="ProjectTemplates\HotTowelPreview.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -80,6 +81,7 @@
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.csproj">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\Global.asax">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -93,6 +95,7 @@
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.vstemplate">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="__VsixIcon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

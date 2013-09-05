@@ -83,8 +83,14 @@
       <DependentUpon>Global.asax</DependentUpon>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.csproj" />
-    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.vstemplate" />
+    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.csproj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.vstemplate">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest" />
     <Content Include="__VsixIcon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
