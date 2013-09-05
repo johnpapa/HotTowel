@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTowelSpaTemplateVsix", "HotTowelSpaTemplateVsix\HotTowelSpaTemplateVsix.csproj", "{B72C31B9-A997-41A3-96F9-7A4EF93972A0}"
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTowelSpaTemplateVsixVS2012", "HotTowelSpaTemplateVsixVS2012\HotTowelSpaTemplateVsixVS2012.csproj", "{B72C31B9-A997-41A3-96F9-7A4EF93972A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTowelSpaTemplateVsixVS2013", "HotTowelSpaTemplateVsixVS2013\HotTowelSpaTemplateVsixVS2013.csproj", "{12C1B671-5D12-4BE2-B30B-86A33170D159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,10 @@ Global
 		{B72C31B9-A997-41A3-96F9-7A4EF93972A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B72C31B9-A997-41A3-96F9-7A4EF93972A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B72C31B9-A997-41A3-96F9-7A4EF93972A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C1B671-5D12-4BE2-B30B-86A33170D159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C1B671-5D12-4BE2-B30B-86A33170D159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C1B671-5D12-4BE2-B30B-86A33170D159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C1B671-5D12-4BE2-B30B-86A33170D159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
