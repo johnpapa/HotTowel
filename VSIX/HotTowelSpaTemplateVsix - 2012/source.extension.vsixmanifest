@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="HotTowelSpa.2012.f2c5332a-5485-418a-9083-fbdb17e35c2e" Version="1.0" Language="en-US" Publisher="JohnPapa.net" />
+    <Identity Id="HotTowelSpa.2012.f2c5332a-5485-418a-9083-fbdb17e35c2e" Version="1.1" Language="en-US" Publisher="JohnPapa.net" />
     <DisplayName>Hot Towel Spa (VS 2012)</DisplayName>
     <Description xml:space="preserve">An ASP.NET MVC 4 project for a Single Page Application (SPA) with Knockout for data binding, Durandal for composition and navigation, and Breeze for data management. (Works specifically for VS 2012 only)</Description>
     <MoreInfo>https://johnpapa.net/hottowel</MoreInfo>
@@ -24,9 +24,9 @@
                ProjectType="MVC"
                Language="C#"
                ViewEngine="Razor"
-               TemplateId="HotTowelSpaApplication"
-               Title="HotTowel Single Page Application"
-               Description="An ASP.NET 4 project for a single page application with Knockout, Durandal, and Breeze"
+               TemplateId="HotTowelSpaApplication2012"
+               Title="HotTowel SPA"
+               Description="An ASP.NET 4 project for a single page application with Durandal, Knockout, and Breeze"
                Version="4.0"/>
 
     <Asset Type="Microsoft.VisualStudio.Mvc.Template" d:Source="File" Path="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\__TemplateIcon.ico" />
