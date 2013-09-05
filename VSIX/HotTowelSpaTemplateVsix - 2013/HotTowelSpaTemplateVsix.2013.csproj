@@ -83,14 +83,9 @@
       <DependentUpon>Global.asax</DependentUpon>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\vs2012 template\HotTowelSpaProjectTemplate.cshtml.vstemplate">
-      <SubType>Designer</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\vs2013 template\HotTowelSpaProjectTemplate.cshtml.vstemplate">
-      <SubType>Designer</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.csproj" />
+    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.vstemplate" />
+    <None Include="source.extension.vsixmanifest" />
     <Content Include="__VsixIcon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -170,24 +165,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <None Include="source.extension.vsixmanifest">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\favicon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.csproj">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\HotTowelSpaProjectTemplate.cshtml.vstemplate">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <SubType>Designer</SubType>
     </Content>
     <Content Include="ProjectTemplates\HotTowelSpaProjectTemplate.cshtml\__TemplateIcon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

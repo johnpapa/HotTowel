@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTowelSpaTemplateVsix", "HotTowelSpaTemplateVsix\HotTowelSpaTemplateVsix.csproj", "{B72C31B9-A997-41A3-96F9-7A4EF93972A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotTowelSpaTemplateVsix.2012", "HotTowelSpaTemplateVsix.2012.csproj", "{B72C31B9-A997-41A3-96F9-7A4EF93972A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

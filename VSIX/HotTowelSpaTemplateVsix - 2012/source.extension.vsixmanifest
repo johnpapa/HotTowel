@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="HotTowelSpa..c7e4af09-d368-4411-8eaa-bc493103fdf6" Version="1.0" Language="en-US" Publisher="JohnPapa.net" />
-    <DisplayName>Hot Towel Spa</DisplayName>
-    <Description xml:space="preserve">An ASP.NET MVC 4 project for a Single Page Application (SPA) with Knockout for data binding, Durandal for composition and navigation, and Breeze for data management</Description>
+    <Identity Id="HotTowelSpa.2012.f2c5332a-5485-418a-9083-fbdb17e35c2e" Version="1.0" Language="en-US" Publisher="JohnPapa.net" />
+    <DisplayName>Hot Towel Spa (VS 2012)</DisplayName>
+    <Description xml:space="preserve">An ASP.NET MVC 4 project for a Single Page Application (SPA) with Knockout for data binding, Durandal for composition and navigation, and Breeze for data management. (Works specifically for VS 2012 only)</Description>
     <MoreInfo>https://johnpapa.net/hottowel</MoreInfo>
     <Icon>__VsixIcon.ico</Icon>
     <PreviewImage>ProjectTemplates\HotTowelPreview.png</PreviewImage>
     <Tags>HotTowel SPA</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0, 12.0]" />
-    <InstallationTarget Version="[11.0,12.0]" Id="Microsoft.VisualStudio.VWDExpress" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0]" />
+    <InstallationTarget Version="[11.0]" Id="Microsoft.VisualStudio.VWDExpress" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />

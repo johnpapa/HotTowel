@@ -65,7 +65,7 @@
       <package id="Microsoft.AspNet.WebPages.WebData" version="2.0.20710.0" skipAssemblyReferences="true" />
       <package id="WebGrease" version="1.3.0" skipAssemblyReferences="true" />
     </packages>
-    <packages repository="extension" repositoryId="HotTowelSpa..c7e4af09-d368-4411-8eaa-bc493103fdf6" >
+    <packages repository="extension" repositoryId="HotTowelSpa.2012.f2c5332a-5485-418a-9083-fbdb17e35c2e" >
       <package id="WebActivator" version="1.5.3" skipAssemblyReferences="true" />
       <package id="jQuery" version="1.9.1" />
       <package id="knockoutjs" version="2.3.0" />
