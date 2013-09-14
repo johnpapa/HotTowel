@@ -54,17 +54,17 @@ Hot Towel: Because you don't want to go to the SPA without one!
         <file src="HotTowel\App\views\shell.html" target="content\App\views\shell.html" />
         <file src="HotTowel\App\main.js" target="content\App\main.js" />
         <file src="HotTowel\App_Start\BundleConfig.cs.pp" target="content\App_Start\BundleConfig.cs.pp" />
-        <file src="content\App_Start\HotTowelConfig.cs.pp" target="content\App_Start\HotTowelConfig.cs.pp" />
-        <file src="content\App_Start\HotTowelRouteConfig.cs.pp" target="content\App_Start\HotTowelRouteConfig.cs.pp" />
-        <file src="content\Content\images\icon.png" target="content\Content\images\icon.png" />
-        <file src="content\Content\app.css" target="content\Content\app.css" />
-        <file src="content\Content\ie10mobile.css" target="content\Content\ie10mobile.css" />
-        <file src="content\Controllers\HotTowelController.cs.pp" target="content\Controllers\HotTowelController.cs.pp" />
-        <file src="content\Models\_._" target="content\Models\_._" />
+        <file src="HotTowel\App_Start\HotTowelConfig.cs.pp" target="content\App_Start\HotTowelConfig.cs.pp" />
+        <file src="HotTowel\App_Start\HotTowelRouteConfig.cs.pp" target="content\App_Start\HotTowelRouteConfig.cs.pp" />
+        <file src="HotTowel\Content\images\icon.png" target="content\Content\images\icon.png" />
+        <file src="HotTowel\Content\app.css" target="content\Content\app.css" />
+        <file src="HotTowel\Content\ie10mobile.css" target="content\Content\ie10mobile.css" />
+        <file src="HotTowel\Controllers\HotTowelController.cs.pp" target="content\Controllers\HotTowelController.cs.pp" />
+        <file src="HotTowel\Models\_._" target="content\Models\_._" />
         <file src="HotTowel\Scripts\_references.js" target="content\Scripts\_references.js" />
         <file src="HotTowel\Views\HotTowel\index.cshtml" target="content\Views\HotTowel\index.cshtml" />
-        <file src="content\Views\HotTowel\_splash.cshtml" target="content\Views\HotTowel\_splash.cshtml" />
-        <file src="content\Views\Web.config" target="content\Views\Web.config" />
-        <file src="content\favicon.ico" target="content\favicon.ico" />
+        <file src="HotTowel\Views\HotTowel\_splash.cshtml" target="content\Views\HotTowel\_splash.cshtml" />
+        <file src="HotTowel\Views\Web.config" target="content\Views\Web.config" />
+        <file src="HotTowel\favicon.ico" target="content\favicon.ico" />
     </files>
 </package>
