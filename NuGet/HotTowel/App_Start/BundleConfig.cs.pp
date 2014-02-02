@@ -13,7 +13,7 @@ namespace $rootnamespace$
             bundles.Add(
               new ScriptBundle("~/scripts/vendor")
                 .Include("~/scripts/jquery-{version}.js")
-                .Include("~/scripts/knockout-{version}.debug.js")
+                .Include("~/scripts/knockout-{version}.js")
                 .Include("~/scripts/toastr.js")
                 .Include("~/scripts/Q.js")
                 .Include("~/scripts/breeze.debug.js")
